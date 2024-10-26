@@ -1,8 +1,0 @@
-lib: [
-  "_build/install/default/lib/personal_website/META"
-  "_build/install/default/lib/personal_website/dune-package"
-  "_build/install/default/lib/personal_website/opam"
-]
-bin: [
-  "_build/install/default/bin/personal_website"
-]
