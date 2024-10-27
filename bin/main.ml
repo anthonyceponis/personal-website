@@ -19,9 +19,9 @@ let render _request =
           </div>
         </div>
         <div class="flex flex-col items-center gap-2 mb-10">
-          <div class="flex w-full justify-around gap-3">
+          <div class="flex flex-col lg:flex-row w-full justify-around items-center gap-5">
             <div>
-              <img src="/static/profile.jpg" alt="Example Image" width="400" class="fade-in-from-above">  
+              <img src="/static/profile.jpg" alt="Example Image" width="400" class="fade-in-from-above mx-auto">  
             </div>
             <div class="max-w-xl flex flex-col justify-center gap-5">
               <p class="fade-in-from-above"> I am a computer science student at Queens' College in the University of Cambridge.</p> 
