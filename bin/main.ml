@@ -55,7 +55,7 @@ let render _request =
   |}
 
 let () = 
-  Dream.run
+  Dream.run ~interface:"0.0.0.0" ~port:8080
   @@ Dream.logger
   @@ Dream.router [
     Dream.get "/" render;
