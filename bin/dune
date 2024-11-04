@@ -1,4 +1,4 @@
 (executable
  (public_name personal_website)
  (name main)
- (libraries personal_website dream))
+ (libraries personal_website dream tyxml))
